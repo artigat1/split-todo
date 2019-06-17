@@ -16,8 +16,17 @@ export const toggleTodo = id => ({
     id
 });
 
+export const setFlags = flags => ({
+    type: 'SET_FLAGS',
+    flags
+})
+
 export const VisibilityFilters = {
     SHOW_ALL: 'SHOW_ALL',
     SHOW_COMPLETED: 'SHOW_COMPLETED',
     SHOW_ACTIVE: 'SHOW_ACTIVE'
+};
+
+export const FeatureFlags = {
+    FOOTER_V2: 'footer-2'
 };
