@@ -1,0 +1,10 @@
+.button {
+    margin-left: 10px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+}
+
+.button:disabled {
+    background-color: cornflowerblue;
+}
